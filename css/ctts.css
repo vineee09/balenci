@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container{
+    border: 1px solid rgb(47, 47, 47);
+    width: 1000px;
+    /* centralizar o container */
+    margin: 0 auto;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.5;}
+
+nav ul{
+    background-color: #000;
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+
+
+ul.menu {
+  
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+ul.menu li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+ul.menu {
+  color: black;
+  
+  
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+ul.menu a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.caixa {
+  margin-bottom: 60px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+ul, ol {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Imagens a preto e branco */
+img {
+  width: 50%;
+  margin: 5px 0;
+  filter: grayscale(100%);
+  display: flex;
+  justify-self: center;
+  
+}
+
+/* ===== Tabela ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid black;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ===== Rodapé ===== */
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 30px;
+}
+.box ol {
+    list-style-type: decimal;
+}
